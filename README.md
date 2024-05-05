@@ -1,6 +1,6 @@
 # learing html and css with projeccts 
 
-HTML 
-CSS
-JAVA SCRIPT 
+# HTML 
+# CSS
+# JAVA SCRIPT 
 
