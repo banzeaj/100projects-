@@ -1,6 +1,10 @@
 # learing html and css with projeccts 
 
-# HTML 
-# CSS
-# JAVA SCRIPT 
+ cdHTML 
+ CSS
+ JAVA SCRIPT 
 
+# project names 
+1. 
+2. auto text
+3. mini-calendar
