@@ -9,3 +9,4 @@
 2. mini-calendar
 3. calculatercd
 4. HTML-Button Ripple Effect 
+5. Random Photos 
