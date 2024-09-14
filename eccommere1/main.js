@@ -94,3 +94,6 @@ function updateTotal() {
     totalElement.innerHTML = "R" + total; 
 
 }
+
+
+//========================================================================
