@@ -10,3 +10,6 @@
 3. calculatercd
 4. HTML-Button Ripple Effect 
 5. Random Photos 
+6. Ecommece store // not done 
+7. Ecommerce store // eletronic store not done 
+8. Responsive coffee shop website 
