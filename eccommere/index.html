@@ -1,53 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce-ShoppingCart | Korsat X Parmaga</title>
 
-    <link rel = "stylesheet" href ="cart.css">
-    <script src = "cart.js"></script>
-    
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <div class = "top-bar">
-        <p><i class = "fa-solid fa-envelope"></i>banze.aj@gmail.com <box-icon type='solid' name='envelope'></box-icon></p>
-        <p><i class = "fa-solid fa-phone"></i>072 210 5142</p>
+    <!-- HEADER  -->
+    <header>
+        <!-- NAV  -->
+        <div class="nav container">
+            <a href="#" class="logo"><span>AJ</span>-eletronics</a>
+            <!-- CART ICON  -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
 
-    </div>
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
 
-    <div class ="hearder">
-        <div class ="navbar">
-            <p>LOGO</p>
-            <ul>
-                <li><a href="#">Home</a></il>
-                <li><a href="#">Store</a></il>
-                <li><a href="#">About</a></il>
-                <li><a href="#">Contact</a></il>
-            </ul>
-        </div>
-        <div class ="navbar-b">
-            <div class = "dropdown">
-                <select name = " ">
-                    <option value ="1">Categories</option>
-                    <option value ="2">New</option>
-                    <option value ="3">Imported</option>
-                    <option value ="4">Local</option>
- 
-                </select>
-              
+                <!-- CONTENT  -->
+                <div class="cart-content">
+
+
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">R0</div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
             </div>
-            <div class="search">
-                <input type="search" placeholder="search...">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p>0</p></div>
         </div>
-    </div>
+    </header>
 
-    <div class="container">
-        <div id="root"></div>
-        <div class="sidebar">Sidebar</div>
 
-    </div>
+    <!-- SHOP SECTION  -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="assets/img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">3in1 Rainbow Atmosphere Desk Lamp Wireless Charger Portable Speaker</h2>
+                <span class="product-price">300</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="assets/img/product2.jpg" alt="" class="product-img">
+                <h2 class="product-title">Volkano Dual Neo Series Headphone And Earphone Combo</h2>
+                <span class="product-price">300</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="assets/img/product3.jpg" alt="" class="product-img">
+                <h2 class="product-title">New true wireless tws audifonos auriculares gamer</h2>
+                <span class="product-price">208</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="assets/img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">Modern Latest Custom-made X12 Game Console</h2>
+                <span class="product-price">560</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="assets/img/product5.jpg" alt="" class="product-img">
+                <h2 class="product-title">VOLKANO Sport Series Headphones with Microphone</h2>
+                <span class="product-price">300</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="assets/img/product6.jpg" alt="" class="product-img">
+                <h2 class="product-title">360° Smart Home Office Wireless WiFi outdoor camera</h2>
+                <span class="product-price">400</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="assets/img/product7.jpg" alt="" class="product-img">
+                <h2 class="product-title">Daemon Kids Headphones,Bluetooth Wireless Headphones</h2>
+                <span class="product-price">200</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="assets/img/product8.jpg" alt="" class="product-img">
+                <h2 class="product-title">Volkano Turbine Series USB Powered Speakers</h2>
+                <span class="product-price">300</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- link js  -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
