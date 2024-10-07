@@ -14,3 +14,4 @@
 7. Ecommerce store  
 8. Responsive coffee shop website 
 9. Back ground colors
+10. Spinner 
