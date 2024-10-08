@@ -30,10 +30,12 @@
 
  @keyframes loading{
     from{
-    transform:rotate(0turn);
+    transform: rotate(0turn);
  }
 
  to{
     transform: ratate(1turn);
  }
 }
+
+/*https://www.youtube.com/watch?v=q76TexbMXJg*/
